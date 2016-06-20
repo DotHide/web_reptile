@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-```
+```ruby
 require('reptile')
 
 Reptile.url("http://www.jd.com/allSort.aspx") do |reptile|
