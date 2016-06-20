@@ -26,7 +26,12 @@ Or install it yourself as:
 require('web_reptile')
 
 WebReptile.url("http://www.jd.com/allSort.aspx") do |web|
-    puts web.grab(".category-items .category-item .items dt a")
+    items = web.grab(".category-items .category-item .items dt a")
+    items.map do |item|
+        href = item.attr('href')
+        text = item.text
+        puts "[#{text}](#{href})"
+    end
 end
 ```
 
