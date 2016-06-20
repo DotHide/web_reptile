@@ -1,7 +1,7 @@
-require "reptile/version"
+require "web_reptile/version"
 require "mechanize"
 
-module Reptile
+module WebReptile
   def self.url(url, options = {}, &block)
     agent = Mechanize.new
     page = agent.get(url)

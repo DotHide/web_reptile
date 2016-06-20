@@ -1,15 +1,15 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'reptile/version'
+require 'web_reptile/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "reptile"
+  spec.name          = "web_reptile"
   spec.version       = Reptile::VERSION
   spec.authors       = ["Martin_nett"]
   spec.email         = ["dothide@gmail.com"]
 
-  spec.summary       = %q{Reptile is a web spider framework using Ruby.}
+  spec.summary       = %q{WebReptile is a web spider framework using Ruby.}
   spec.homepage      = "https://github.com/DotHide/reptile"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

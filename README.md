@@ -2,14 +2,14 @@
 
 [![Travis](https://img.shields.io/travis/DotHide/reptile.svg?maxAge=2592000)](https://travis-ci.org/DotHide/reptile) 
 
-Reptile is a web spider framework using Ruby.
+WebReptile is a web spider framework using Ruby.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'reptile'
+gem 'web_reptile'
 ```
 
 And then execute:
@@ -18,15 +18,15 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install reptile
+    $ gem install web_reptile
 
 ## Usage
 
 ```ruby
-require('reptile')
+require('web_reptile')
 
-Reptile.url("http://www.jd.com/allSort.aspx") do |reptile|
-    puts reptile.grab(".category-items .category-item .items dt a")
+WebReptile.url("http://www.jd.com/allSort.aspx") do |web|
+    puts web.grab(".category-items .category-item .items dt a")
 end
 ```
 
