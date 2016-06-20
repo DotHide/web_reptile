@@ -1,5 +1,7 @@
 # Reptile
 
+[![Travis](https://img.shields.io/travis/DotHide/reptile.svg?maxAge=2592000)](https://travis-ci.org/DotHide/reptile) 
+
 Reptile is a web spider framework using Ruby.
 
 ## Installation
