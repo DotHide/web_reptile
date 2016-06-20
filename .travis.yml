@@ -3,3 +3,8 @@ rvm:
   - 2.3.0
 before_install: gem install bundler -v 1.11.2
 script: bundle exec rspec spec
+deploy:
+  provider: rubygems
+  api_key: "0a83ba9104db0bc50ca2b67e3fc67406"
+  on:
+    tags: true
