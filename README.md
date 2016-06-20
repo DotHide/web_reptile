@@ -20,7 +20,13 @@ Or install it yourself as:
 
 ## Usage
 
-[I'll write it later.]
+```
+require('reptile')
+
+Reptile.url("http://www.jd.com/allSort.aspx") do |reptile|
+    puts reptile.grab(".category-items .category-item .items dt a")
+end
+```
 
 ## Development
 

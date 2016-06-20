@@ -5,7 +5,9 @@ describe Reptile do
     expect(Reptile::VERSION).not_to be nil
   end
 
-  it 'does something useful' do
-    expect(false).to eq(true)
+  it 'should load a page' do
+    Reptile.url("http://www.jd.com/allSort.aspx") do |reptile|
+      expect(reptile).not_to be nil
+    end
   end
 end
