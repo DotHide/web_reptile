@@ -5,7 +5,7 @@ require 'web_reptile/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "web_reptile"
-  spec.version       = Reptile::VERSION
+  spec.version       = WebReptile::VERSION
   spec.authors       = ["Martin_nett"]
   spec.email         = ["dothide@gmail.com"]
 

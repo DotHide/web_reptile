@@ -25,14 +25,15 @@ Or install it yourself as:
 ```ruby
 require('web_reptile')
 
-WebReptile.url("http://www.jd.com/allSort.aspx") do |web|
-    items = web.grab(".category-items .category-item .items dt a")
-    items.map do |item|
-        href = item.attr('href')
-        text = item.text
-        puts "[#{text}](#{href})"
-    end
+domain = WebReptile.url("http://www.jd.com/allSort.aspx")
+items = domain.grab(".category-items .category-item .items dt a")
+items.map do |item|
+    href = item.attr('href')
+    text = item.text
+    "[#{text}](#{href})"
 end
+
+# ["[电子书刊](//e.jd.com/ebook.html)", "[音像](//mvd.jd.com/)", "[英文原版](//channel.jd.com/1713-4855.html)", "[文艺](//channel.jd.com/p_wenxuezongheguan.html)", "[少儿](//book.jd.com/children.html)", "[人文社科](//book.jd.com/library/socialscience.html)", "[经管励志](//channel.jd.com/p_Comprehensive.html)", ...]
 ```
 
 ## Development

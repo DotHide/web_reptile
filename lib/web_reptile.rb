@@ -19,6 +19,7 @@ module WebReptile
     def self.url(url, opts = {})
       self.new(url, opts) do |web|
         yield web if block_given?
+        self
       end
     end
 
