@@ -1,6 +1,6 @@
 # WebReptile
 
-[![Travis](https://img.shields.io/travis/DotHide/reptile.svg?maxAge=2592000)](https://travis-ci.org/DotHide/reptile) 
+[![Gem](https://img.shields.io/gem/v/web_reptile.svg?maxAge=2592000)](https://rubygems.org/gems/web_reptile) [![Travis](https://img.shields.io/travis/DotHide/reptile.svg?maxAge=2592000)](https://travis-ci.org/DotHide/reptile) 
 
 WebReptile is a web spider framework using Ruby.
 
