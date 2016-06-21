@@ -1,4 +1,4 @@
-# Reptile
+# WebReptile
 
 [![Travis](https://img.shields.io/travis/DotHide/reptile.svg?maxAge=2592000)](https://travis-ci.org/DotHide/reptile) 
 
@@ -44,5 +44,5 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/DotHide/reptile.
+Bug reports and pull requests are welcome on GitHub at https://github.com/DotHide/web_reptile.
 
